@@ -1,0 +1,9 @@
+schema: schema.json
+overwrite: true
+generates:
+  ./src/types.d.ts:
+    plugins:
+      - typescript-common
+      - typescript-client
+  ./src/test-plugin-types.d.ts:
+    - test-plugin.js

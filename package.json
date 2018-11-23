@@ -1,0 +1,21 @@
+{
+  "name": "gql-gen-plugin-test",
+  "version": "1.0.0",
+  "description": "Reproduction repo for a custom plugin bug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "gql-gen"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "graphql-code-generator": "^0.14.1",
+    "graphql-codegen-typescript-client": "^0.14.1",
+    "graphql-codegen-typescript-common": "^0.14.1"
+  }
+}
